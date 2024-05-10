@@ -5,8 +5,13 @@
     background-color: #D9CDF7;
 }
 
-.geral{
-    margin: auto;
+body {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
  
 h1{
@@ -20,19 +25,12 @@ h1{
 }
 
 img{
-    margin: auto;
     display: block;
     width: 449px;
     height: 253px;
     margin-top: 27px;
 }
 
-.conteudo{
-    max-width: 500px;
-    margin: auto;
-    margin-left: 32rem;
-
-}
 
 .codigo{
     color: #271A45;
@@ -70,4 +68,11 @@ h3{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 12px;
+    
+}
+
+.compra:hover{
+    color: #D9CDF7;
+    background-color: #271A45;
+    transition: 0.2s;
 }
